@@ -10,9 +10,9 @@ if (typeof window !== 'undefined' && typeof window.web3 !== 'undefined') {
 else {
     // We are on the server or the user doesn't have Metamask.
     const provider = new Web3.providers.HttpProvider(
-    'https://sepolia.infura.io/v3/1c5c58d53c4344efa05c7d36b469bb82'
+    'https://sepolia.infura.io/v3/5155cea9c4e64a61a936191776a8de32'
 );
     web3 = new Web3(provider);
-}
+};
 
 export default web3;

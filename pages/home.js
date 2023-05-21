@@ -40,7 +40,7 @@ class EventIndex extends Component {
     render() {
         return (
             <Layout><script src="https://cdn.tailwindcss.com"></script>
-                <div className="h-screen bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-gray-900 to-gray-600">
+                <div className="h-full bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-gray-900 to-gray-600">
                     <link
                         rel="stylesheet"
                         href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css">

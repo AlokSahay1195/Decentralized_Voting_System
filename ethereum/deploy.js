@@ -6,8 +6,8 @@ const Web3=require('web3');
 const compiledFactory=require('./build/EventFactory.json');
 
 const provider=new HDWalletProvider(
-    'goddess outdoor country benefit voyage property hurry lawn october tongue fog dwarf',
-    'https://sepolia.infura.io/v3/1c5c58d53c4344efa05c7d36b469bb82'
+    'extend sister stable wood frown next illness bullet agent coffee transfer bacon',
+    'https://sepolia.infura.io/v3/5155cea9c4e64a61a936191776a8de32'
 );
 const web3=new Web3(provider);
 
